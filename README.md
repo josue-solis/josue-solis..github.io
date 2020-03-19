@@ -1,2 +1,2 @@
-# josue-solis..github.io
+# josue-solis.github.io
 Portfolio
