@@ -1,0 +1,16 @@
+// Navigation Style
+
+.navigation{
+    margin: 0 60px;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    margin: 0 15px;
+    font-family: $font-title;
+    text-decoration: none;
+    color: $primary-color-text;
+    &:hover{
+        color: $primary-color;
+    }
+}

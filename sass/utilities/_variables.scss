@@ -1,0 +1,40 @@
+// Variables
+
+// Details Colors
+$primary-color: #E93CAC; // fucsia
+$secondary-color: #4C4C4C; // dark grey
+
+// Text Colors
+$primary-color-text: #fff; // white
+
+// Fonts
+@font-face {
+    font-family: montserratBlack;
+    src: url("../assets/fonts/montserrat/montserrat-black-webfont.woff") format("woff"),
+    url("../assets/fonts/montserrat/montserrat-black-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: montserratRegular;
+    src: url("../assets/fonts/montserrat/montserrat-regular-webfont.woff") format("woff"),
+    url("../assets/fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: montserratLight;
+    src: url("../assets/fonts/montserrat/montserrat-light-webfont.woff") format("woff"),
+    url("../assets/fonts/montserrat/montserrat-light-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: ralewayRegular;
+    src: url("../assets/fonts/raleway/raleway-regular-webfont.woff") format("woff"),
+    url("../assets/fonts/raleway/raleway-regular-webfont.woff2") format("woff2");
+}
+
+$font-title: "montserratBlack";
+$font-subtitle: "montserratLight";
+$font-text: "ralewayRegular";
+
+
+
+
+
+

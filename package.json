@@ -1,0 +1,23 @@
+{
+  "name": "josue-solis.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Josue Solis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josue-solis/josue-solis.github.io.git"
+  },
+  "author": "Josue Solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josue-solis/josue-solis.github.io/issues"
+  },
+  "homepage": "https://github.com/josue-solis/josue-solis.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
