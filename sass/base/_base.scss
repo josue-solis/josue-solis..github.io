@@ -13,6 +13,8 @@ html{
 }
 
 body{
+    max-width: 80%;
+    margin: 0 auto;
     background-color: $secondary-color;
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 #{$sqrt3}"><path d="M0 #{$apothem}h1L1.5 0h1L3 #{$apothem}L2.5 #{$sqrt3}h-1L1 #{$apothem}" stroke="#{$lineColor}" opacity="0.06" stroke-width="#{$relThickness}" fill="none"/></svg>');
     background-size: $size * 3 $size * $sqrt3;
@@ -21,11 +23,15 @@ body{
 
 p, a{
     font-family: $font-text;
+    color: $primary-text-color;
+    font-size: 1.2rem;
 }
 
 // Components
 
 .title{
     font-family: $font-title;
+    font-size: 2.5rem;
+    color: $primary-color;
 }
 
