@@ -384,7 +384,8 @@ p, a {
     color: #fff;
     background-color: #4C4C4C;
     z-index: 3;
-    transition: 0.6s; }
+    transition: 0.6s;
+    display: none; }
   .nav-item {
     padding-top: 40px; }
   .close-btn {
