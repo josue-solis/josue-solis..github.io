@@ -340,6 +340,10 @@ p, a {
   font-size: 2.5rem;
   color: #E93CAC; }
 
+@media (max-width: 768px) {
+  body {
+    max-width: 90%; } }
+
 .navigation {
   margin: 0 60px; }
 
@@ -351,6 +355,40 @@ p, a {
   color: #fff; }
   .nav-item:hover {
     color: #E93CAC; }
+
+.close-btn {
+  display: none;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .close-btn svg {
+    width: 100%;
+    height: 100%; }
+    .close-btn svg path {
+      fill: #fff; }
+
+@media (max-width: 768px) {
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #4C4C4C;
+    z-index: 3;
+    transition: 0.6s; }
+  .nav-item {
+    padding-top: 40px; }
+  .close-btn {
+    display: flex; } }
 
 header {
   height: 100px;
@@ -380,6 +418,32 @@ header {
   height: auto; }
   .logo path {
     fill: #E93CAC; }
+
+.menu-btn {
+  display: none;
+  height: 40px;
+  width: 40px;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center; }
+  .menu-btn svg {
+    width: 100%;
+    height: 100%; }
+    .menu-btn svg path {
+      fill: #fff; }
+
+@media (max-width: 768px) {
+  header {
+    height: 80px; }
+  .sticky {
+    height: 70px;
+    background-color: #fff; }
+    .sticky .nav-item {
+      color: #fff; }
+    .sticky .menu-btn svg path {
+      fill: #4C4C4C; }
+  .menu-btn {
+    display: flex; } }
 
 .home-section {
   min-height: 100vh;
@@ -465,6 +529,12 @@ header {
   100% {
     bottom: 20px; } }
 
+@media (max-width: 768px) {
+  .big-title h1 {
+    font-size: 3rem; }
+  .big-title h2 {
+    font-size: 1.5rem; } }
+
 .about-section {
   margin: 80px 0;
   display: grid;
@@ -477,7 +547,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin-top: 35px; }
@@ -508,3 +578,11 @@ header {
 
 .wp-icon svg path {
   fill: #21759B; }
+
+@media (max-width: 768px) {
+  .about-section {
+    margin: 80px 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 0; } }

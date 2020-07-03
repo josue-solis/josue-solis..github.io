@@ -35,3 +35,8 @@ p, a{
     color: $primary-color;
 }
 
+@media (max-width: 768px) {
+    body{
+        max-width: 90%;
+    }
+}
